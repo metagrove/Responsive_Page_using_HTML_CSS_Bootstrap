@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left : 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(224, 17, 17) !important;
+
+}
+#navbarSupportedContent a{
+    color: azure;
+    border-bottom: 2px solid transparent;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(224, 17, 17);
+}
+#navbarSupportedContent button{
+    font-size: 15px;
+    background: rgb(255, 29, 29);
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(chickenimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 80px;
+    color: azure;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Home p{
+    font-size: 15px;
+    color: azure;
+}
+#Home .input-group{
+    width: 27%;
+    height: 45px;;
+}
+.Signin{
+    background-color: rgb(153, 0, 0) !important;
+    font-weight: 500;
+    color: azure !important;
+}
+.Login{
+    background-color: rgb(153, 0, 0) !important;
+    font-weight: 500;
+    color: azure !important;
+
+}
+#About{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(bacimg2.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#About h1{
+    color: red;
+    font-weight: 800px;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+#About p{
+    color: azure;
+    font-weight: 8px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+#Menu h1{
+    text-align: top;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+
+#Menu{
+    background: black;
+}
+.card{
+    height: 400px;
+    width: 900px;
+    box-shadow: 15px 20px 20px rgba(153, 0, 0, 0.5),inset 5px 5px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 20px;
+    transition: .4;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.623),inset -2px -2px 5px white;
+    transition: .4;
+}
+#Contact{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(chickenimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    color: azure;
+}
+
+form{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#Contact input{
+    margin:10px 0px;
+
+}
+#Contact textarea{
+
+    margin: 15px 0px;
+}
+footer{
+    width:100%;
+    background-color: black;
+    margin-top: -30px;
+    text-align: center;
+    color: azure;
+}
+img{
+    
+    size: 75%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 20px;
+}
